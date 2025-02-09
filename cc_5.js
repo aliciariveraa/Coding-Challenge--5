@@ -8,6 +8,7 @@ console.log(`Customer Name: ${customer.name}`);
 console.log(`Customer Age: ${customer.age}`);
 console.log(`Customer Email: ${customer.email}`);
 
+
 // Task 2 - Order Details
 let order = {
     orderId: 12345,
@@ -22,6 +23,7 @@ let order = {
 
 order.displayOrder();
 
+
 // Task 3 - Shopping Cart
 let cartItems = ["Apple", "Grape", "Orange"];
 
@@ -31,3 +33,10 @@ cartItems.unshift("Banana");  // Add to the beginning
 cartItems.shift();  // Remove from the beginning
 
 console.log(cartItems);  // Log final cart items
+
+
+// Task 4 - Price Adjustments
+let prices = [100, 200, 300];
+
+let discountedPrices = prices.map(price => price * 0.9);  // Apply 10% discount
+console.log(discountedPrices);
