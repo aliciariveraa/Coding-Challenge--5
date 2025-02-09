@@ -21,3 +21,13 @@ let order = {
 };
 
 order.displayOrder();
+
+// Task 3 - Shopping Cart
+let cartItems = ["Apple", "Grape", "Orange"];
+
+cartItems.push("Grapes");  // Add to the end
+cartItems.pop();  // Remove from the end
+cartItems.unshift("Banana");  // Add to the beginning
+cartItems.shift();  // Remove from the beginning
+
+console.log(cartItems);  // Log final cart items
