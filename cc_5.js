@@ -75,6 +75,12 @@ console.log(`The calculated tax is $${tax}`);
 let applyDiscount = function(price, discount) {
     return price - (price * discount);
 };
-
 let discountedPrice = applyDiscount(300, 0.15);
 console.log(`The discounted price is $${discountedPrice}`);
+
+
+// Task 10 - Loyalty Points
+let calculatePoints = (purchaseAmount) => purchaseAmount / 10;
+
+let points = calculatePoints(120);
+console.log(`The customer earned ${points} loyalty points.`);
