@@ -40,3 +40,10 @@ let prices = [100, 200, 300];
 
 let discountedPrices = prices.map(price => price * 0.9);  // Apply 10% discount
 console.log(discountedPrices);
+
+
+// Task 5 - Product Availability
+let inventory = [5, 0, 12, 8, 0];
+
+let availableProducts = inventory.filter(quantity => quantity > 0);
+console.log(availableProducts);
